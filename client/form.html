@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/input-form.css" />
+  <title>Form Validator</title>
+</head>
+
+<body>
+  <header>
+  </header>
+
+  <main>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Bitte registrieren Sie sich beim BZZ</h2>
+
+        <div class="form-control">
+          <label for="studentID">Student ID</label>
+          <input type="text" id="studentID" placeholder="000" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="studentFirstName">Vorname</label>
+          <input type="text" id="studentFirstName" placeholder="Alissa" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="studentLastName">Nachname</label>
+          <input type="text" id="studentLastName" placeholder="Lopez" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="phone">Telefon</label>
+          <input type="number" id="phone" placeholder="012 345 67 89" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">E-Mail</label>
+          <input type="text" id="email" placeholder="hans@muster.com" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="grades">Noten</label>
+          <input type="number" id="grades" placeholder="0" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="year">Eintrittsjahr</label>
+          <input type="number" id="year" placeholder="2022" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="teacher">Lehrperson</label>
+          <input type="number" id="teacher" placeholder="100" />
+          <small>Error message</small>
+        </div>
+
+        <button type="submit">Absenden</button>
+      </form>
+    </div>
+
+    <script src="script/validate-inputs.js"></script>
+    <script src="script/network.js"></script>
+  </main>
+
+  <footer>
+    <p>Leistungsbeurteilung | Alissa Lopez | Koen van Eck | Modul 290</p>
+  </footer>
+
+</body>
+
+
+</html>
